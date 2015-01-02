@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="jquery-1.7.2.min.js"></script>
+<script src="test.js"></script>
+<style>
+html,body,
+div,
+table,tbody,tr,td,th,
+h1,h2,
+pre,span
+{
+padding:0;
+margin:0;
+}
+li{list-style:none;}
+
+body{
+width:100%;
+height:100%;
+
+}
+
+table{
+width:100%;
+height:100%;
+
+}
+
+td{
+width:50%;
+height:200px;
+border-radius:4px;
+}
+
+.saveButton0{background:#ea3345;}
+
+.saveButton1{background:#e2d2ab;}
+
+.saveButton2{background:#e4bd5e;}
+
+.saveButton3{background:#e7a4aa;}
+
+.saveButton4{background:#ada38a;}
+
+#bt pre{
+font-size:80px;
+text-align:center;	
+}
+
+#bt.title{
+top:0;
+left:5px;
+}
+
+#history{
+height:230px;
+overflow:scroll;
+width:100%;
+background:#333;
+color:#35d6c9;
+}
+
+#his{
+width:35%;
+
+}
+#pie{
+width:55%;
+}
+</style>
+</head>
+<body>
+<h2>知識情報・図書館学類 2クラス-TX(TapiocaExpress)</h2>
+
+
+<div id="body">
+<table>
+	<tr>
+		<td id="bt" class="saveButton0">
+			<span class="title">りんごサイダー</span>
+			<pre id="a0">　</pre>
+		</td>
+
+		<td id="bt" class="saveButton1">
+			<span class="title">ミルクティー</span>
+			<pre id="a1">　</pre>
+		</td>
+	</tr>
+	
+	<tr>
+		<td id="bt" class="saveButton2">
+			<span class="title">キャラメル</span>
+			<pre id="a2">　</pre>
+		</td>
+		
+		<td id="bt" class="saveButton3">
+			<span class="title">いちごミルク</span>
+			<pre id="a3">　</pre>
+		</td>
+	</tr>
+	
+	<tr>
+		<td id="bt" class="saveButton4">
+			<span class="title">じんじゃえーる</span>
+			<pre id="a4">　</pre>
+		</td>
+		
+		<td id="bt" class="removeButton">
+			<pre>Return</pre>
+		</td>
+	</tr>
+	
+</table>
+
+<hr>
+<table>
+	<tr>
+		<td id="his"><pre id="history">　</pre></td>
+		<td id="pie"><div id="gct_sample_column2" style="width:90%; height:230px" ></div></td>
+	</tr>
+</table>
+</div>
+
+</body>
+</html>
